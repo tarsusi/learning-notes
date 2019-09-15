@@ -3,6 +3,6 @@
 ### Self Notes
 
 - Javascript
-  - [Getting Started](Javascript/getting-started.md)
+  - [Getting Started](Javascript/javascript.md)
 - Typescript
   - [Getting Started](Typescript/getting-started.md)
