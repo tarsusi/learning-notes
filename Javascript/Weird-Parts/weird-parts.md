@@ -41,7 +41,37 @@
   ```
 
 - ```javascript
-    NaN !== NaN -> true
+    typeof [] --> "object"
+    typeof {} --> "object"
+    typeof NaN --> "number"
+    typeof Infinity --> "number"
+    typeof -Infinity --> "number"
   ```
 
-  The NaN value is the only values in the whole JS language that is not equal to itself.
+- ```javascript
+    NaN !== NaN -> true
+    NaN < 1 --> false
+    NaN > 1 --> false
+    NaN == NaN --> false
+    isNaN(true) --> false
+    isNaN(false) --> false
+    isNaN(undefined) --> true
+  ```
+
+  - ```javascript
+    Number(true) --> 1
+    Number(false) --> 0
+    ```
+
+* The NaN value is the only values in the whole JS language that is not equal to itself.
+* In JavaScript, the best way to check for **NaN** is by checking for self-equality. Because **NaN** is not equal to itself, **NaN != NaN** will always return true.
+
+* ```javascript
+  {} + [] --> 0
+  [] + {} --> '[object object]'
+  "0" == false --> true
+  true + false --> 1
+  [] == ![] --> true
+  '13' + 52 + '46' --> '135246'
+  37 / true --> 37
+  ```
