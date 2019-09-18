@@ -63,15 +63,16 @@
     Number(false) --> 0
     ```
 
-* The NaN value is the only values in the whole JS language that is not equal to itself.
-* In JavaScript, the best way to check for **NaN** is by checking for self-equality. Because **NaN** is not equal to itself, **NaN != NaN** will always return true.
+The NaN value is the only values in the whole JS language that is not equal to itself.
 
-* ```javascript
-  {} + [] --> 0
-  [] + {} --> '[object object]'
-  "0" == false --> true
-  true + false --> 1
-  [] == ![] --> true
-  '13' + 52 + '46' --> '135246'
-  37 / true --> 37
-  ```
+- In JavaScript, the best way to check for **NaN** is by checking for self-equality. Because **NaN** is not equal to itself, **NaN != NaN** will always return true.
+
+```javascript
+ {} + [] --> 0
+ [] + {} --> '[object object]'
+ "0" == false --> true
+ true + false --> 1
+ [] == ![] --> true
+ '13' + 52 + '46' --> '135246'
+ 37 / true --> 37
+```
