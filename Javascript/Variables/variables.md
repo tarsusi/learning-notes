@@ -30,3 +30,8 @@ Notes:
 - undefined means a variable has been declared but not defined yet.
 - null is an object. undefined is of type undefined.
 - null !== undefined but null == undefined.
+
+```javascript
+// null == undefined --> true
+// null !== undefined --> true
+```

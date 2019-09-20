@@ -56,6 +56,7 @@
     isNaN(true) --> false
     isNaN(false) --> false
     isNaN(undefined) --> true
+    !!(new Boolean(false)) --> true
   ```
 
   - ```javascript
