@@ -14,6 +14,10 @@
 
 - [Conditionals&Loops](Conditionals&Loops/conditionals-loops.md)
 
+- [Events](Events/events.md)
+
+- [Generators](Generators/generators.md)
+
 - [Weird Parts](Weird-Parts/weird-parts.md)
 
 ## Book Notes

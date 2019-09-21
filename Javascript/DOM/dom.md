@@ -1,7 +1,5 @@
 # DOM
 
-![](?raw=true&width=400)
-
 <img src="../../assets/images/dom-parse-progress.png"
      alt="Markdown Monster icon"
      style="width: 400px;display: block;margin: 0 auto;margin-bottom: 48px;" />

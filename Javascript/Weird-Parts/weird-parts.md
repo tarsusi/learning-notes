@@ -59,10 +59,13 @@
     !!(new Boolean(false)) --> true
   ```
 
-  - ```javascript
+- When dealing with arithmetic operations, `null` becomes **0**
+- When dealing with arithmetic operations, `undefined` makes the result of operation `NaN`
+
+- ```javascript
     Number(true) --> 1
     Number(false) --> 0
-    ```
+  ```
 
 The NaN value is the only values in the whole JS language that is not equal to itself.
 
