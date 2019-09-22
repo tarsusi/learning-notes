@@ -65,6 +65,7 @@
 - ```javascript
     Number(true) --> 1
     Number(false) --> 0
+    Number(undefined) --> NaN
   ```
 
 The NaN value is the only values in the whole JS language that is not equal to itself.

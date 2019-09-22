@@ -16,9 +16,16 @@
 
 - [Events](Events/events.md)
 
+- [Style](Style/style.md)
+
 - [Generators](Generators/generators.md)
 
 - [Weird Parts](Weird-Parts/weird-parts.md)
+
+## Implicit & Explicit Coersion
+
+- [Implicit Coercion in JavaScript
+  ](https://medium.com/front-end-weekly/implicit-coercion-in-javascript-5077ad5510d)
 
 ## Book Notes
 
@@ -26,4 +33,5 @@
 
 ## Miscellaneous Scripts
 
-- [Scripts](Scripts/detecting-inactivity.js)
+- [Detecting Inactivity](Scripts/detecting-inactivity.js)
+- [Preload Image](Scripts/preload-image.js)
