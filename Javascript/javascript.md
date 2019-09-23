@@ -16,6 +16,8 @@
 
 - [Events](Events/events.md)
 
+- [Hoisting](Hoisting/hoisting.md)
+
 - [Style](Style/style.md)
 
 - [Generators](Generators/generators.md)
@@ -35,3 +37,4 @@
 
 - [Detecting Inactivity](Scripts/detecting-inactivity.js)
 - [Preload Image](Scripts/preload-image.js)
+- [XMLHttpRequest call](Scripts/xml-http-request.js)
