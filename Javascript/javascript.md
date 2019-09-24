@@ -38,3 +38,5 @@
 - [Detecting Inactivity](Scripts/detecting-inactivity.js)
 - [Preload Image](Scripts/preload-image.js)
 - [XMLHttpRequest call](Scripts/xml-http-request.js)
+- [Array Shuffle](Scripts/array-shuffle.js)
+- [Does File Exists](Scripts/does-file-exists.js)
