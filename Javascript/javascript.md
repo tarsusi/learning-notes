@@ -40,3 +40,4 @@
 - [XMLHttpRequest call](Scripts/xml-http-request.js)
 - [Array Shuffle](Scripts/array-shuffle.js)
 - [Does File Exists](Scripts/does-file-exists.js)
+- [Is Touch Supported](Scripts/is-touch-supported.js)

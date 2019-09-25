@@ -57,6 +57,12 @@
     isNaN(false) --> false
     isNaN(undefined) --> true
     !!(new Boolean(false)) --> true
+
+    console.log(isNaN(Number('114px')));                         --> true
+    console.log(isNaN('I am a String!'));               --> true
+
+    console.log(Number.isNaN(Number('114px')));                  --> true
+    console.log(Number.isNaN('I am another String!'));  --> false
   ```
 
 - When dealing with arithmetic operations, `null` becomes **0**
