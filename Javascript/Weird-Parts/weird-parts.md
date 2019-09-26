@@ -63,6 +63,9 @@
 
     console.log(Number.isNaN(Number('114px')));                  --> true
     console.log(Number.isNaN('I am another String!'));  --> false
+
+    114..toFixed() --> "114"
+    114.114.toFixed(3) --> "114.114"
   ```
 
 - When dealing with arithmetic operations, `null` becomes **0**
