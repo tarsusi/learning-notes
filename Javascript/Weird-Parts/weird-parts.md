@@ -72,8 +72,8 @@
 - When dealing with arithmetic operations, `undefined` makes the result of operation `NaN`
 
 - ```javascript
-    Number(true) --> 1
-    Number(false) --> 0
+    Number(true)      --> 1
+    Number(false)     --> 0
     Number(undefined) --> NaN
   ```
 
