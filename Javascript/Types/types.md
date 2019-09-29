@@ -60,3 +60,10 @@ console.log(foo.constructor === Object); // true
 ```javascript
 '  4444 5555 666  '.replace(/\s/g, '') and '  4444 5555 666  '.trim() are same
 ```
+
+```javascript
+[] instanceof Object --> true
+{} instanceof Object --> true
+new Object() instanceof Object --> true
+Object() instanceof Object --> true
+```

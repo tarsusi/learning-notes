@@ -6,6 +6,8 @@
   - [Getting Started](Javascript/javascript.md)
 - Typescript
   - [Getting Started](Typescript/getting-started.md)
+- CSS
+  - [Getting Started](CSS/README.md)
 
 ### Clean Code
 
