@@ -48,3 +48,21 @@ console.log(shallowCloneObject); --> { a: { aa: 345 }, b: 123 }
 console.log(firstObject); --> { a: { aa: 123 }, b: 1 }
 
 ```
+
+## Array Shallow Copy
+
+`destructuring`, `slice` amd `Array.from` functions creates shallow copy of an array.
+
+```javascript
+const firstArray = [["Omer", 114]];
+
+// All creates a shallow copy
+let arrayClone = [...firstArray];
+arrayClone = firstArray.slice();
+arrayClone = Array.from(firstArray);
+
+arrayClone[0][1] = 123;
+
+console.log(arrayClone); --> [["Omer", 123]]
+console.log(array); --> [["Omer", 123]]
+```

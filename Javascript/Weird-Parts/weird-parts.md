@@ -91,3 +91,26 @@ The NaN value is the only values in the whole JS language that is not equal to i
  '13' + 52 + '46' --> '135246'
  37 / true --> 37
 ```
+
+- `Object.is()` determines whether two values are **the same value**
+
+```javascript
+Object.is("foo", "foo"); // true
+Object.is(window, window); // true
+
+Object.is("foo", "bar"); // false
+Object.is([], []); // false
+Object.is({}, {}); // false
+
+var foo = { a: 1 };
+var bar = { a: 1 };
+Object.is(foo, foo); // true
+Object.is(foo, bar); // false
+
+Object.is(null, null); // true
+
+// Special Cases
+Object.is(0, -0); // false
+Object.is(-0, -0); // true
+Object.is(NaN, 0 / 0); // true
+```
