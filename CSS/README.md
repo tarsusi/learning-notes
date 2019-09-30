@@ -58,4 +58,45 @@ For more detail look at the [freecodecamp section](https://learn.freecodecamp.or
 
   - `<time datetime="2019-09-29">Sunday, September 29</time>`
 
-- While using **a** tag, the link text should be very descriptivei not like `Click Here` or `Read more`
+- While using **a** tag, the link text should be very descriptive not like `Click Here` or `Read more`
+
+## GRID Design
+
+- To use grid system, give container element `display: grid`
+
+- `grid-template-columns` takes the number of paremeters that indicates the number of columns in grid, and the value of each parameter indicates the width of each column.
+
+  - `grid-template-columns: 50px 40px` for example, indicates that there are 2 columns and first column has 50px wide and second column has 40px wide
+
+- `grid-template-rows` takes the number of paremeters that indicates the number of rows in grid, and the value of each parameter indicates the height of each row.
+
+  - `grid-template-rows: 50px 40px` for example, indicates that there are 2 rows and first row has 50px height and second row has 40px height
+
+- `grid-column-gap` indicates the gap between grid columns.
+
+  - `grid-column-gap: 10px`, for example indicates there is 10px gap between each column
+
+- `grid-row-gap` indicates the gap between grid rows.
+
+  - `grid-row-gap: 10px`, for example indicates there is 10px gap between each row
+
+- `grid-gap: 10px 20px` is a shorthand for 10px gap for rows and 20px gap for columns
+
+- `grid-template-areas`, for tagging the cells in grid.
+
+  ```css
+  grid-template-areas:
+    "header header header"
+    "advert content content"
+    "footer footer footer";
+  ```
+
+  - This example is for 3x3 grid. Each string represent each row.
+
+- `grid-area` is used for giving an cell to use all grid area by its value.
+
+- `repeat` function can be used width `grid-template-rows` or `grid-template-columns` to repeat repeat values.
+
+  - `grid-template-rows: repeat(100, 50px);` is equals to creating 100 rows with 50px wide.
+
+- `minmax(minValue, maxValue)` can be used for limit size of cell

@@ -64,5 +64,5 @@ arrayClone = Array.from(firstArray);
 arrayClone[0][1] = 123;
 
 console.log(arrayClone); --> [["Omer", 123]]
-console.log(array); --> [["Omer", 123]]
+console.log(firstArray); --> [["Omer", 123]]
 ```
