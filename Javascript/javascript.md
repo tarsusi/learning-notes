@@ -18,6 +18,8 @@
 
 - [Hoisting](Hoisting/hoisting.md)
 
+- [Shallow & Deep Copy](Shallow&DeepCopy/README.md)
+
 - [Style](Style/style.md)
 
 - [Generators](Generators/generators.md)

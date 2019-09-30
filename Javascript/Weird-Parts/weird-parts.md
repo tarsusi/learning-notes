@@ -43,6 +43,7 @@
 - ```javascript
     typeof [] --> "object"
     typeof {} --> "object"
+    typeof null --> "object"
     typeof NaN --> "number"
     typeof Infinity --> "number"
     typeof -Infinity --> "number"

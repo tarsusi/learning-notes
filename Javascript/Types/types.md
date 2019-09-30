@@ -37,6 +37,7 @@ Note: Rather than being built-in types, these should be thought of more lie subt
 - pop() versus shift()
 - indexOf() versus lastIndexOf()
 - to empty an array you can set length value to 0. `myArray.length = 0`
+- to empty an array you can use slice method. `myArray.slice(0,myArray.length)`
 - to clonse an array use slice function. `const newArray = myArray.slice()`
 
 ### Check variable type
@@ -64,6 +65,20 @@ console.log(foo.constructor === Object); // true
 ```javascript
 [] instanceof Object --> true
 {} instanceof Object --> true
+null instanceof Object --> false
 new Object() instanceof Object --> true
 Object() instanceof Object --> true
+```
+
+- **hasOwnProperty** function checks for the keys only in object itself, not in **prototype** of it.
+
+```javascript
+const a = { name: 'sample' };
+const b = Object.create(a);
+
+console.log(b); --> {}
+console.log(b.name); --> "sample"
+console.log(b.hasOwnProperty('name')); --> false
+console.log('name' in b); --> true
+console.log(Object.keys(b)); --> []
 ```
