@@ -38,7 +38,7 @@ Note: Rather than being built-in types, these should be thought of more lie subt
 - indexOf() versus lastIndexOf()
 - to empty an array you can set length value to 0. `myArray.length = 0`
 - to empty an array you can use slice method. `myArray.slice(0,myArray.length)`
-- to clonse an array use slice function. `const newArray = myArray.slice()`
+- to clone an array use slice function. `const newArray = myArray.slice()`
 
 ### Check variable type
 
@@ -81,4 +81,15 @@ console.log(b.name); --> "sample"
 console.log(b.hasOwnProperty('name')); --> false
 console.log('name' in b); --> true
 console.log(Object.keys(b)); --> []
+```
+
+- Object properties take precedence over propotype properties of the same name.
+
+```javascript
+function Counter(count) {
+  this.count = count; // object property
+}
+Counter.prototype.count = 2; // prototype property
+var counter = new Counter(6);
+alert(counter.count); // => 6
 ```

@@ -68,3 +68,34 @@ sayHelloKelly(); // Hello Kelly King
 
 - **Call** and **Apply** are pretty interchangeable.
 - **Bind** returns a new function **Call** and **Apply** execute the current function immediately.
+
+## Function Private and Public Privacy
+
+- Public property and public method example:
+
+```javascript
+function Book() {
+  this.author = "Omer Burak KARATAS";
+  this.getAuthor = function() {
+    return this.author;
+  };
+}
+var book = new Book();
+alert(book.author); // => Omer Burak KARATAS   (public property)
+alert(book.getAuthor()); // => Omer Burak KARATAS   (public method)
+```
+
+- Private property example:
+
+```javascript
+function Book() {
+  var author = "James Joyce"; // private
+  this.getAuthor = function() {
+    // privileged
+    return author;
+  };
+}
+var book = new Book();
+alert(book.author); // => undefined (i.e. private)
+alert(book.getAuthor()); // => "James Joyce"
+```

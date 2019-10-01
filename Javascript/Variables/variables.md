@@ -2,6 +2,8 @@
 
 - Variables can start with a **letter**, **underscore**, or the **\$** character. They can't start with a number.
 
+- Variables come in two different types: value types and reference types. Boolean values and numbers are value-based types, whereas strings, objects, arrays, and functions are reference types (taken from [dofactory](https://www.dofactory.com/tutorial/javascript-builtin-types))
+
 ## var vs let vs const
 
 var:

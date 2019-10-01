@@ -41,6 +41,11 @@
   ```
 
 - ```javascript
+  false == "0" --> true
+  true == "1" --> true
+  ```
+
+- ```javascript
     typeof [] --> "object"
     typeof {} --> "object"
     typeof null --> "object"
