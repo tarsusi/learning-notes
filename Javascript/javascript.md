@@ -22,6 +22,8 @@
 
 - [Style](Style/style.md)
 
+- [Regular Expressions](RegExps/README.md)
+
 - [Generators](Generators/generators.md)
 
 - [Weird Parts](Weird-Parts/weird-parts.md)
