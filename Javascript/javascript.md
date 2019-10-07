@@ -28,10 +28,14 @@
 
 - [Weird Parts](Weird-Parts/weird-parts.md)
 
-## Implicit & Explicit Coersion
+## Implicit & Explicit Coercion
 
 - [Implicit Coercion in JavaScript
   ](https://medium.com/front-end-weekly/implicit-coercion-in-javascript-5077ad5510d)
+
+## Good Medium Blogs
+
+- [How Javascript Works](https://medium.com/better-programming/how-javascript-works-1706b9b66c4d)
 
 ## Book Notes
 

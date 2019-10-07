@@ -69,6 +69,16 @@ sayHelloKelly(); // Hello Kelly King
 - **Call** and **Apply** are pretty interchangeable.
 - **Bind** returns a new function **Call** and **Apply** execute the current function immediately.
 
+- Calling the function **Function.prototype.apply()** will have the same effect as the spread syntax:
+
+```javascript
+// Using Function.prototype.apply() instead of the spread operator
+[1, 3, 5].min(); // undefined
+Math.min([1, 3, 5]); // NaN
+Math.min.apply(null, [1, 3, 5]); // 1
+Math.max.apply(null, [1, 3, 5]); // 5
+```
+
 ## Function Private and Public Privacy
 
 - Public property and public method example:
