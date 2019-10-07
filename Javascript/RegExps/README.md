@@ -136,7 +136,15 @@ alert(str.match(regexp)); // "She's the one!"
 | (?<=Y)X     | Positive lookbehind | X if after Y           |
 | (?<!Y)X     | Negative lookbehind | X if not after Y       |
 
-- Positive lookahead
+- A more practical use of lookaheads is to check two or more patterns in one string. Here is a (naively) simple password checker that looks for between 3 and 6 characters and at least one number:
+
+```javascript
+let password = "abc123";
+let checkPass = /(?=\w{3,6})(?=\D*\d)/;
+checkPass.test(password); // Returns true
+```
+
+### Positive lookahead
 
 ```javascript
 let str = "1 turkey costs 30€";
@@ -144,7 +152,7 @@ let str = "1 turkey costs 30€";
 alert(str.match(/\d+(?=€)/)); // 30, the number 1 is ignored, as it's not followed by €
 ```
 
-- Negative lookahead
+### Negative lookahead
 
 ```javascript
 let str = "1 turkey costs 30€";
@@ -152,7 +160,7 @@ let str = "1 turkey costs 30€";
 alert(str.match(/\d+(?=\s)(?=.*30)/)); // 1
 ```
 
-- Positive lookbehind
+### Positive lookbehind
 
 ```javascript
 let str = "1 turkey costs $30";
@@ -161,7 +169,7 @@ let str = "1 turkey costs $30";
 alert(str.match(/(?<=\$)\d+/)); // 30 (skipped the sole number)
 ```
 
-- Negative lookbehind
+### Negative lookbehind
 
 ```javascript
 let str = "2 turkeys cost $60";
