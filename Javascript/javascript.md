@@ -24,6 +24,8 @@
 
 - [Regular Expressions](RegExps/README.md)
 
+- [Template Literals](TemplateLiterals/README.md)
+
 - [Generators](Generators/generators.md)
 
 - [Weird Parts](Weird-Parts/weird-parts.md)

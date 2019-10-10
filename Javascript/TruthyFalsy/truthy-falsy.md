@@ -3,7 +3,7 @@
 ### Falsy Values
 
 - "" empty string
-- 0, -0, NaN
+- 0, -0, NaN, 0n
 - null, undefined
 - false
 
