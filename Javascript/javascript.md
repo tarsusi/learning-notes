@@ -26,6 +26,8 @@
 
 - [Template Literals](TemplateLiterals/README.md)
 
+- [Iterables](Iterables/README.md)
+
 - [Generators](Generators/generators.md)
 
 - [Weird Parts](Weird-Parts/weird-parts.md)
