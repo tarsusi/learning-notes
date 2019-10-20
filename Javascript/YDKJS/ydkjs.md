@@ -19,3 +19,13 @@ Look at the [github](https://github.com/getify/You-Dont-Know-JS) page.
 - Transpiling --> transforming + compiling
 
 - document, console.log and alert is not provided by Js engine itself, theya re provided by the browser.
+
+- `Strict Mode` was added in **ES5**. It disallows the automatic/implicit global variable creation.
+
+- Engine will throw an `ReferenceError`, if it fails to find a RHS look-up or no global scoped variable during an LHS operation.
+
+- Engine will throw an `TypeError`, if it finds a value for RHS look-up but try to do something with it that is impossible, i.e. trying execute-function a nonfunction value, reference property of a **null** or **undefined** value.
+
+- Another reason block-scoping is useful relates to closure and garbage collection to reclaim memory.
+
+- Compilation phase and execution phase
