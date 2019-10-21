@@ -29,3 +29,9 @@ Look at the [github](https://github.com/getify/You-Dont-Know-JS) page.
 - Another reason block-scoping is useful relates to closure and garbage collection to reclaim memory.
 
 - Compilation phase and execution phase
+
+- Closure is when a function is able to remember and access its lexical scope event when that function is executing outside its lexical scope.
+
+- IIFE creates scope by declaring a function and immediately executing it.
+
+- `Lexical scope`(also called Static scope) is write-time, whereas `dynamic scope`(and **this!**) are runtime. `Lexical scope` cares where a function declared, but `dynamic scope` cares where a function was called from.
