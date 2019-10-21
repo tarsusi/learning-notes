@@ -34,4 +34,4 @@ Look at the [github](https://github.com/getify/You-Dont-Know-JS) page.
 
 - IIFE creates scope by declaring a function and immediately executing it.
 
-- `Lexical scope`(also called Static scope) is write-time, whereas `dynamic scope`(and **this!**) are runtime. `Lexical scope` cares where a function declared, but `dynamic scope` cares where a function was called from.
+- `Lexical scope`(also called `Static` scope) is write-time, whereas `dynamic scope`(and **this!**) are runtime. `Lexical scope` cares where a function declared, but `dynamic scope` cares where a function was called from.
