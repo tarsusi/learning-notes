@@ -116,6 +116,7 @@ Object.is(foo, foo); // true
 Object.is(foo, bar); // false
 
 Object.is(null, null); // true
+Object.is(NaN, NaN); // true
 
 // Special Cases
 Object.is(0, -0); // false
