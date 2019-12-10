@@ -64,3 +64,16 @@ myObject.a; // 2
 - `Object.freeze()` creates a frozen object, which means it takes an existing object and essentially calls `Object.seal(..)` on it, but it also marks all **data accessor** properties as `writable: false`, so that their values cannot be changed.
 
 - `hasOwnProperty()` checks to see if the object has the property or not, and will not consult `[[Prototype]]` chain.
+
+- To create a inheritance link between two object you can use:
+
+```javascript
+
+// pre-ES6
+// throws away default existing Bar.prototype
+Bar.prototype = Object.create(Foo.prototype);
+
+// ES6+
+// modifies existing Bar.prototype
+Object.setPrototypeOf(Bar.prototype, Foo.prototype);
+```

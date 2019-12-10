@@ -41,17 +41,17 @@
   ```
 
 - ```javascript
-  false == "0" --> true
-  true == "1" --> true
+  false == "0"-- > true;
+  true == "1"-- > true;
   ```
 
 - ```javascript
-    typeof [] --> "object"
-    typeof {} --> "object"
-    typeof null --> "object"
-    typeof NaN --> "number"
-    typeof Infinity --> "number"
-    typeof -Infinity --> "number"
+  typeof []-- > "object";
+  typeof {}-- > "object";
+  typeof null-- > "object";
+  typeof NaN-- > "number";
+  typeof Infinity-- > "number";
+  typeof -Infinity-- > "number";
   ```
 
 - ```javascript
@@ -78,9 +78,9 @@
 - When dealing with arithmetic operations, `undefined` makes the result of operation `NaN`
 
 - ```javascript
-    Number(true)      --> 1
-    Number(false)     --> 0
-    Number(undefined) --> NaN
+  Number(true)-- > 1;
+  Number(false)-- > 0;
+  Number(undefined)-- > NaN;
   ```
 
 The NaN value is the only values in the whole JS language that is not equal to itself.
@@ -98,6 +98,12 @@ The NaN value is the only values in the whole JS language that is not equal to i
  [] == ![] --> true
  '13' + 52 + '46' --> '135246'
  37 / true --> 37
+```
+
+- 'BANANA' with Javascript
+
+```javascript
+("b" + "a" + +"a" + "a").toLowerCase()-- > "banana";
 ```
 
 - `Object.is()` determines whether two values are **the same value**
