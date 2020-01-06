@@ -6,7 +6,7 @@
 - [Variables](Variables/variables.md)
 - [Types](Types/types.md)
 - [Scope](Scope/scope.md)
-- [Closure](Closure/closure.md)
+- [Closure](Closure/README.md)
 
 - [TruthyFalsy](TruthyFalsy/truthy-falsy.md)
 
@@ -40,6 +40,8 @@
 ## Good Medium Blogs
 
 - [How Javascript Works](https://medium.com/better-programming/how-javascript-works-1706b9b66c4d)
+- [Execution Context, Lexical Environment and Closures in Javascript](https://medium.com/better-programming/execution-context-lexical-environment-and-closures-in-javascript-b57c979341a5)
+- ["this" keyword in Javascript](https://medium.com/javascript-in-plain-english/this-keyword-in-javascript-87f9feb89b95)
 
 ## Book Notes
 

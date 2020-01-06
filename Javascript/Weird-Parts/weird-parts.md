@@ -90,14 +90,16 @@ The NaN value is the only values in the whole JS language that is not equal to i
 - In JavaScript, the best way to check for **NaN** is by checking for self-equality. Because **NaN** is not equal to itself, **NaN != NaN** will always return true.
 
 ```javascript
- [] + [] --> ""
- {} + [] --> 0
- [] + {} --> '[object object]'
- "0" == false --> true
- true + false --> 1
- [] == ![] --> true
- '13' + 52 + '46' --> '135246'
- 37 / true --> 37
+  [] + [] --> ""
+  {} + [] --> 0
+  [] + {} --> '[object object]'
+  "0" == false --> true
+  true + false --> 1
+  [] == ![] --> true
+  '13' + 52 + '46' --> '135246'
+  37 / true --> 37
+  [1,2,3] + [4,5,6] --> 1,2,34,5,6
+  parseInt(null, 24) --> 23
 ```
 
 - 'BANANA' with Javascript

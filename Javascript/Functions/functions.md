@@ -6,6 +6,8 @@
 - **this** is neither a reference to the function itself, nor is it a reference to the function's lexical scope.
 - **this** is actually a binding that is made when a function is invoked, and what it references is determined entirely by the call-site where the function is called.
 
+> An arrow function does not have its own **this**. The **this** value of the enclosing lexical scope is used; arrow functions follow the normal variable lookup rules
+
 ```javascript
 // Function Declaration
 
@@ -81,6 +83,8 @@ Math.min([1, 3, 5]); // NaN
 Math.min.apply(null, [1, 3, 5]); // 1
 Math.max.apply(null, [1, 3, 5]); // 5
 ```
+
+> Think of **a** in apply for array of args and **c** in call for columns of args.
 
 ## Function Private and Public Privacy
 

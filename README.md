@@ -3,7 +3,7 @@
 ### Self Notes
 
 - Javascript
-  - [Getting Started](Javascript/javascript.md)
+  - [Getting Started](Javascript/README.md)
 - Typescript
   - [Getting Started](Typescript/getting-started.md)
 - CSS
