@@ -42,6 +42,9 @@
 - [How Javascript Works](https://medium.com/better-programming/how-javascript-works-1706b9b66c4d)
 - [Execution Context, Lexical Environment and Closures in Javascript](https://medium.com/better-programming/execution-context-lexical-environment-and-closures-in-javascript-b57c979341a5)
 - ["this" keyword in Javascript](https://medium.com/javascript-in-plain-english/this-keyword-in-javascript-87f9feb89b95)
+- [Be the Master of the Event Loop in Javascript(Part 1)](https://medium.com/better-programming/be-the-master-of-the-event-loop-in-javascript-part-1-6804cdf6608f)
+- [Be the Master of the Event Loop in Javascript(Part 2)](https://medium.com/better-programming/be-the-master-of-the-event-loop-in-javascript-part-2-54637d49889f)
+- [Be the Master of the Event Loop in Javascript(Part 3)](https://medium.com/better-programming/be-the-master-of-the-event-loop-in-javascript-part-3-df51ab655c94)
 
 ## Book Notes
 
