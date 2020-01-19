@@ -80,6 +80,9 @@
 - ```javascript
   Number(true)-- > 1;
   Number(false)-- > 0;
+  Number([])-- > 0;
+  Number({})-- > NaN;
+  Number(null)-- > 0;
   Number(undefined)-- > NaN;
   ```
 

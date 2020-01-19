@@ -84,6 +84,13 @@ Math.min.apply(null, [1, 3, 5]); // 1
 Math.max.apply(null, [1, 3, 5]); // 5
 ```
 
+```javascript
+// You can use apply to concatenate
+var array1 = [1, 2, 3];
+var array2 = [4, 5, 6];
+console.log(array1.push.apply(array1, array2)); // [1,2,3,4,5,6];
+```
+
 > Think of **a** in apply for array of args and **c** in call for columns of args.
 
 ## Function Private and Public Privacy

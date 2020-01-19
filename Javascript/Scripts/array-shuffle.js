@@ -16,3 +16,8 @@ tempArray.shuffle();
 
 // and the result is...
 alert(tempArray);
+
+/* a lightweight version maybe
+var list = [1,2,3];
+console.log(list.sort(function() { Math.random() - 0.5 })); // [2,1,3]
+*/

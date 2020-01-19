@@ -37,6 +37,10 @@
 - [Implicit Coercion in JavaScript
   ](https://medium.com/front-end-weekly/implicit-coercion-in-javascript-5077ad5510d)
 
+## Equality Comparison
+
+- [MDN Equality Comparison Table](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Equality_comparisons_and_sameness#A_model_for_understanding_equality_comparisons)
+
 ## Good Medium Blogs
 
 - [How Javascript Works](https://medium.com/better-programming/how-javascript-works-1706b9b66c4d)
