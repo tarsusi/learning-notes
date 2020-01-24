@@ -54,7 +54,7 @@ say.apply(person1, ["Hello"]); // Hello Jon Kuperman
 say.apply(person2, ["Hello"]); // Hello Kelly King
 ```
 
-- Bind returns a new function, allowing you to pass in a this arra and any number of arguments
+- Bind returns a new function, allowing you to pass in a this array and any number of arguments
 
 ```javascript
 var person1 = { firstName: "Jon", lastName: "Kuperman" };
@@ -69,6 +69,17 @@ var sayHelloKelly = say.bind(person2);
 
 sayHelloJon(); // Hello Jon Kuperman
 sayHelloKelly(); // Hello Kelly King
+```
+
+- Bind function takes arguments after the first argument, i.e. `this`. The rest arguments can be used for partially applied functions. These arguments set initial values of the function arguments.
+
+```javascript
+function multiply(a, b){
+  return a*b;
+}
+
+var multiplyByTwo = multiply.bind(this, 2);
+console.log(multipleByTwo(4));
 ```
 
 - **Call** and **Apply** are pretty interchangeable.
@@ -122,4 +133,20 @@ function Book() {
 var book = new Book();
 alert(book.author); // => undefined (i.e. private)
 alert(book.getAuthor()); // => "James Joyce"
+```
+
+## Immediately Invoked Function Expressions
+
+- IIFE can be declared in two ways:
+
+```javascript
+(function() {
+  /* IIFE content*/
+})();
+
+// OR
+
+(function() {
+  /* IIFE content*/
+}());
 ```

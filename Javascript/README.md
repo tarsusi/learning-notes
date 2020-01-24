@@ -3,14 +3,18 @@
 ## Sections
 
 - [DOM](DOM/dom.md)
+
 - [Variables](Variables/variables.md)
+
 - [Types](Types/types.md)
+
 - [Scope](Scope/scope.md)
+
 - [Closure](Closure/README.md)
 
 - [TruthyFalsy](TruthyFalsy/truthy-falsy.md)
 
-- [Functions](Functions/functions.md)
+- [Functions](Functions/README.md)
 
 - [Conditionals&Loops](Conditionals&Loops/conditionals-loops.md)
 
