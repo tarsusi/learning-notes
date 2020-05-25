@@ -8,6 +8,9 @@ The common properties for different `Event` Types.
 4. stopPropagation
 5. type
 
+## Event Loop
+[![](http://img.youtube.com/vi/cCOL7MC4Pl0/0.jpg)](http://www.youtube.com/watch?v=cCOL7MC4Pl0 "Event Loop")
+
 ## Adding Event Listener
 
 The method is `element.addEventListener(event, eventHandler, useCapture)`
