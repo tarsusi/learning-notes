@@ -72,6 +72,13 @@
 
     114..toFixed() --> "114"
     114.114.toFixed(3) --> "114.114"
+    
+    const map = ['a', 'b', 'c'].map.bind([11, 22, 33]);
+    map(el => console.log(el));
+    // 11
+    // 22
+    // 33
+
   ```
 
 - When dealing with arithmetic operations, `null` becomes **0**
