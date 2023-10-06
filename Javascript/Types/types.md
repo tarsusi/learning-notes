@@ -37,7 +37,7 @@ Note: Rather than being built-in types, these should be thought of more lie subt
 - pop() versus shift()
 - indexOf() versus lastIndexOf()
 - to empty an array you can set length value to 0. `myArray.length = 0`
-- to empty an array you can use slice method. `myArray.slice(0,myArray.length)`
+- to empty an array you can use slice method. `myArray.splice(0,myArray.length)`
 - to clone an array use slice function. `const newArray = myArray.slice()`
 
 ### Check variable type
